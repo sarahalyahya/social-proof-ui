@@ -12,4 +12,36 @@ html {
 
 body {
   font-family: "Spartan", Arial, Helvetica, sans-serif;
+  background: url("imgs/bg-pattern-top-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 1rem 2.5rem;
+}
+
+/* Typography */
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  color: var(--dark-magenta);
+}
+
+.text--grayish {
+  color: var(--grayish-magenta);
+}
+
+.intro p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.35rem;
+}
+
+.intro {
+  text-align: center;
 }
